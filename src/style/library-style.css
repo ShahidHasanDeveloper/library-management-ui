@@ -1,0 +1,24 @@
+.lib_login_background {
+    background-image: url(../static/images/library.jpg);
+    height:300px
+  }
+
+  .center {
+      position: relative;
+      top: 25%;
+      bottom: 25%;
+      left: 35%;
+
+  }
+
+  .common {
+        color: #ff6936; 
+        background-color:#ffe6cc 
+
+  }
+
+.textFont {
+    color: #ff6936 !important; 
+}
+
+  
