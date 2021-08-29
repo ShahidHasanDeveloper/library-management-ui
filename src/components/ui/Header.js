@@ -54,7 +54,7 @@ class Header extends React.Component {
                         <div className="menu" style={{ display: this.state.openUser }} >
                             <Link to="/addUser" className="item">Add User</Link>
                             <Link to="/UpdateUser" className="item">Update User</Link>
-                            <Link to="/removeUser" className="item">Remove User</Link>
+                            <Link to="/deleteUser" className="item">Delete User</Link>
                             <Link to="/searchUser" className="item">Search User</Link>
                         </div>
                     </div>

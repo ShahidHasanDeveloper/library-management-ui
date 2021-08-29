@@ -40,35 +40,23 @@ class SearchBook extends Component {
 
             } catch (e) {
                 console.error(e.response);
-                if (e.response.status == '404') {
+                if (e.response && e.response.status == '404') {
                     alert('Book is not found');
+                }
+                else {
+                    alert('Something went wrong , please try later');
                 }
 
             }
-        } else{
+        } else {
             alert('provide book id')
         }
 
     }
 
-
-    render() {
-
-        return (
-
-            <div style={{ marginTop: '10px' }}>
-                <div className="ui  form">
-                    <h4 class="ui dividing header">Search Book</h4>
-                    <div className="two fields">
-                        <div className="field">
-                            <input placeholder="Book Id" type="text" onChange={e => this.setState({bookId :e.target.value})} />
-                        </div>
-                        <div className="field">
-                            <div className="ui submit button" onClick={this.onSearchSubmit}>Search Book</div>
-                        </div>
-                    </div>
-                </div>
-
+    showSearchResult = () => {
+        if (this.state.id && this.state.id == this.state.bookId) {
+            return (
                 <div style={{ marginTop: '50px' }}>
                     <div class="ui form">
                         <div className="inline fields">
@@ -107,8 +95,29 @@ class SearchBook extends Component {
                     </div>
 
                 </div>
+            )
+        }
+    }
 
 
+    render() {
+
+        return (
+
+            <div style={{ marginTop: '10px' }}>
+                <div className="ui  form">
+                    <h4 class="ui dividing header">Search Book</h4>
+                    <div className="two fields">
+                        <div className="field">
+                            <input placeholder="Book Id" type="text" onChange={e => this.setState({ bookId: e.target.value })} />
+                        </div>
+                        <div className="field">
+                            <div className="ui submit button" onClick={this.onSearchSubmit}>Search Book</div>
+                        </div>
+                    </div>
+                </div>
+
+                {this.showSearchResult()}
 
             </div>
 

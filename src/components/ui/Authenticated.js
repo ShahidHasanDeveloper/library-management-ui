@@ -9,7 +9,7 @@ import SearchBook from './books/SearchBook';
 import AddBook from './books/AddBook';
 import AddUser from './users/AddUser';
 import SearchUser from './users/SearchUser';
-import RemoveUser from './users/RemoveUser';
+import DeleteUser from './users/DeleteUser';
 import UpdateUser from './users/UpdateUser';
 
 const Authenticated = (props) => {
@@ -28,7 +28,7 @@ const Authenticated = (props) => {
                     <Route path="/addBook" exact component={AddBook}></Route>
                     <Route path="/addUser" exact component={AddUser}></Route>
                     <Route path="/searchUser" exact component={SearchUser}></Route>
-                    <Route path="/removeUser" exact component={RemoveUser}></Route>
+                    <Route path="/deleteUser" exact component={DeleteUser}></Route>
                     <Route path="/UpdateUser" exact component={UpdateUser}></Route>
                 </div>
             </BrowserRouter>
