@@ -87,7 +87,7 @@ class UpdateUser extends Component {
                             <input name="ssn" placeholder="SSN" type="text" onChange={e=>this.setState({ssn: e.target.value})}/>
                         </div>
                     </div>
-                    <div className="ui submit button" onClick={this.udpateThisUser}>Update User</div>
+                    <div className="ui submit button" style={{backgroundColor: '#ff6936', color: 'white'}}  onClick={this.udpateThisUser}>Update User</div>
                 </div>
             </div>
 

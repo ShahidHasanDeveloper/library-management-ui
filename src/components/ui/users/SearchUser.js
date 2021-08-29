@@ -134,7 +134,7 @@ class SearchUser extends Component {
                             <input placeholder="User Id" type="text" onChange={e => this.setState({ userId: e.target.value })} />
                         </div>
                         <div className="field">
-                            <div className="ui submit button" onClick={this.onSearchSubmit}>Search User</div>
+                            <div className="ui submit button" style={{backgroundColor: '#ff6936', color: 'white'}}  onClick={this.onSearchSubmit}>Search User</div>
                         </div>
                     </div>
                 </div>

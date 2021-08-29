@@ -40,7 +40,7 @@ class Header extends React.Component {
 
                     <div className="ui dropdown item" style={{ color: 'white' }} onMouseOver={e => this.onDropdownHover('book')}>
                         Book Transaction <i className="dropdown icon"></i>
-                        <div className="menu" style={{ display: this.state.openBook }} >
+                        <div id="booktx" className="menu" style={{ display: this.state.openBook }} >
                             <Link to="/issueBook" className="item">Book Issue</Link>
                             <Link to="/returnBook" className="item">Book Return</Link>
                             <Link to="/removeBook" className="item">Remove Book</Link>
@@ -51,7 +51,7 @@ class Header extends React.Component {
 
                     <div className="ui dropdown item" style={{ color: 'white' }} onMouseOver={e => this.onDropdownHover('user')}>
                         User Transaction <i className="dropdown icon"></i>
-                        <div className="menu" style={{ display: this.state.openUser }} >
+                        <div id="usertx" className="menu" style={{ display: this.state.openUser }} >
                             <Link to="/addUser" className="item">Add User</Link>
                             <Link to="/UpdateUser" className="item">Update User</Link>
                             <Link to="/deleteUser" className="item">Delete User</Link>

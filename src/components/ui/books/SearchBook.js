@@ -112,7 +112,7 @@ class SearchBook extends Component {
                             <input placeholder="Book Id" type="text" onChange={e => this.setState({ bookId: e.target.value })} />
                         </div>
                         <div className="field">
-                            <div className="ui submit button" onClick={this.onSearchSubmit}>Search Book</div>
+                            <div className="ui submit button" style={{backgroundColor: '#ff6936', color: 'white'}}  onClick={this.onSearchSubmit}>Search Book</div>
                         </div>
                     </div>
                 </div>

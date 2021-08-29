@@ -46,7 +46,7 @@ class IssueBook extends React.Component {
                         </div>
 
                     </div>
-                    <div className="ui submit button" onClick={this.issueThisBook}>Issue Book</div>
+                    <div className="ui submit button" style={{backgroundColor: '#ff6936', color: 'white'}}  onClick={this.issueThisBook}>Issue Book</div>
                 </div>
             </div>
 

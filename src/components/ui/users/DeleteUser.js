@@ -66,7 +66,7 @@ const DeleteUser = () => {
                     </div>
                 </div>
 
-                <div className="ui submit button" onClick={e => deleteUserById()}>Delete User</div>
+                <div className="ui submit button" style={{backgroundColor: '#ff6936', color: 'white'}}  onClick={e => deleteUserById()}>Delete User</div>
             </div>
         </div>
 

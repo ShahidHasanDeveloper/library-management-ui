@@ -47,7 +47,7 @@ class ReturnBook extends React.Component {
                         </div>
                         
                     </div>
-                    <div className="ui submit button" onClick={this.returnThisBook}>Return Book</div>
+                    <div className="ui submit button" style={{backgroundColor: '#ff6936', color: 'white'}}  onClick={this.returnThisBook}>Return Book</div>
                 </div>
             </div>
     

@@ -80,7 +80,7 @@ class AddUser extends Component {
                             <input name="ssn" placeholder="SSN" type="text" onChange={e => this.setState({ ssn: e.target.value })} />
                         </div>
                     </div>
-                    <div className="ui submit button" onClick={e => this.addThisUser()}>Add User</div>
+                    <div className="ui submit button" style={{backgroundColor: '#ff6936', color: 'white'}}  onClick={e => this.addThisUser()}>Add User</div>
                 </div>
             </div>
 

@@ -66,7 +66,7 @@ const RemoveBook = () => {
                     </div>
                 </div>
 
-                <div className="ui submit button" onClick={e => removeBookById()}>Remove Book</div>
+                <div className="ui submit button" style={{backgroundColor: '#ff6936', color: 'white'}} onClick={e => removeBookById()}>Remove Book</div>
             </div>
         </div>
 

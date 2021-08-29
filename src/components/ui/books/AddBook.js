@@ -76,7 +76,7 @@ class AddBook extends React.Component {
                         </div>
     
                     </div>
-                    <div className="ui submit button" onClick={this.addBook}>Add Book</div>
+                    <div className="ui submit button" style={{backgroundColor: '#ff6936', color: 'white'}}onClick={this.addBook}>Add Book</div>
                 </div>
             </div>
     

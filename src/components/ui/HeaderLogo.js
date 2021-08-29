@@ -10,7 +10,7 @@ import '../../style/library-style.css';
                 <img src={props.logo} style={{ height: '100px' }} alt="books" />
             </div>
             <div className="nine wide column">
-                <h3><span style={{ fontSize: 'xx-large' }}>L</span>IBRARY MANAGEMENT SYSTEM</h3>
+                <h3 style={{color: '#ff6936'}}><span style={{ fontSize: 'xx-large' }}>L</span>IBRARY MANAGEMENT SYSTEM</h3>
             </div>
         </div>
 
