@@ -1,0 +1,40 @@
+.lib_login_background {
+    background-image: url(../static/images/library.jpg);
+    height:300px
+  }
+
+.lib_welcome_background {
+    background-image: url(../static/images/welcomeLib.jpg);
+}
+
+  .center {
+      position: relative;
+      top: 25%;
+      bottom: 25%;
+      left: 35%;
+
+  }
+
+  .common {
+        background-color:#ffe6cc 
+
+  }
+
+.textFont {
+    color: #ff6936 !important; 
+}
+
+#booktx a{
+  color: #ff6936 !important; 
+}
+#usertx a{
+  color: #ff6936 !important; 
+}
+
+h4 {
+  color: #ff6936 !important; 
+}
+label {
+  color: #ff6936 !important; 
+}
+
